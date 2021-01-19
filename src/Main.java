@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        int price = 3_250;
-        int amount = 3;
-        int criterion = 20;
-
-                // расчитываем бонус
-        int bonus = price * amount / criterion ;
+        long price = 3_231;
+        long criterion = 20;
+                // расчитываем бонус за 1 билет
+        long bonus = price / criterion;
         System.out.println(bonus);
     }
 }
